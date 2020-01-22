@@ -7,6 +7,8 @@
     <watch-com4></watch-com4> 
     <watch-com5></watch-com5> 
     <watch-com6></watch-com6> 
+    <hr>
+    <class-style></class-style>
   </div>
 </template>
 
@@ -18,6 +20,7 @@ import WatchCom3 from './components/WatchCom3.vue'
 import WatchCom4 from './components/WatchCom4.vue'
 import WatchCom5 from './components/WatchCom5.vue'
 import WatchCom6 from './components/WatchCom6.vue'
+import ClassStyle from './components/styleclass/ClassStyle.vue';
 
 export default {
   name: 'app',
@@ -28,7 +31,8 @@ export default {
     WatchCom3,
     WatchCom4,
     WatchCom5,
-    WatchCom6
+    WatchCom6,
+    ClassStyle
   }
 }
 </script>

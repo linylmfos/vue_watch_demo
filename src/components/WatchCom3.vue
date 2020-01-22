@@ -18,9 +18,9 @@ export default {
       deepMessage: {
         a: {
           b: 'Deep Message'
-        },
-        copyMessage: ''
-      }
+        }
+      },
+      copyMessage: ''
     }
   },
   methods: {
