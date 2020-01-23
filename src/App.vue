@@ -9,6 +9,8 @@
     <watch-com6></watch-com6> 
     <hr>
     <class-style></class-style>
+    <hr>
+    <observable></observable>
   </div>
 </template>
 
@@ -21,6 +23,7 @@ import WatchCom4 from './components/WatchCom4.vue'
 import WatchCom5 from './components/WatchCom5.vue'
 import WatchCom6 from './components/WatchCom6.vue'
 import ClassStyle from './components/styleclass/ClassStyle.vue';
+import Observable from './components/Observable.vue'
 
 export default {
   name: 'app',
@@ -32,7 +35,8 @@ export default {
     WatchCom4,
     WatchCom5,
     WatchCom6,
-    ClassStyle
+    ClassStyle,
+    Observable
   }
 }
 </script>
