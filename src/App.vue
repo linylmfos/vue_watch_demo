@@ -11,6 +11,8 @@
     <class-style></class-style>
     <hr>
     <observable></observable>
+    <hr>
+    <slot-com></slot-com>
   </div>
 </template>
 
@@ -24,6 +26,7 @@ import WatchCom5 from './components/WatchCom5.vue'
 import WatchCom6 from './components/WatchCom6.vue'
 import ClassStyle from './components/styleclass/ClassStyle.vue';
 import Observable from './components/Observable.vue'
+import SlotCom from './components/SlotCom.vue'
 
 export default {
   name: 'app',
@@ -36,7 +39,8 @@ export default {
     WatchCom5,
     WatchCom6,
     ClassStyle,
-    Observable
+    Observable,
+    SlotCom
   }
 }
 </script>
